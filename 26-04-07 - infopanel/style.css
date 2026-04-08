@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     min-height: 1920px;
     align-items: center;
+    font-family: Roboto;
 }
 .logo {
     width: 360px;
@@ -16,12 +17,35 @@ body {
 }
 .odkazy {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 .odkaz {
     width: 250px;
     height: 250px;
     background: #00b0e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .odkaz img {
     width: 100px;
+}
+.odkaz p {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+.odkazy a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 36px;
+    border-bottom: 8px solid #f08013;
+    width: fit-content;
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
