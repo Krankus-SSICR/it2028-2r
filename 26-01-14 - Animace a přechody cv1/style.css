@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    padding: 50px;
+    margin: 0;
+    animation: jablko 1s infinite;
+}
+.hruska {
+    background: #4caf50;
+    padding: 50px;
+    animation-name: hruska;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.jablko {
+    padding: 50px;
+    margin: 50px;
+    background: #ff9800;
+    animation: jablko 2s infinite;
+}
+
+@keyframes hruska {
+    0% {
+        background: #4caf50;
+    }
+    50% {
+        background: deeppink;
+    }
+    100% {
+        background: salmon;
+    }
+}
+@keyframes jablko {
+    0% {
+        transform: scale(1);
+        color: red;
+        font-size: x-large;
+    }
+    50% {
+        transform: scale(1.1);
+        color: blue;
+        font-size: small;
+    }
+    100% {
+        transform: scale(1);
+        color: red;
+        font-size: x-large;
+    }
+}

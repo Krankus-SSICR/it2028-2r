@@ -1,0 +1,47 @@
+body {
+    margin: 2em 15% 0 15%;
+    padding: 0;
+    font-family: Tahoma;
+}
+h2 {
+    font-size: medium;
+    border: 3px solid aquamarine;
+    width: fit-content;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+form {
+    padding: 2em;
+    background: lightcyan;
+}
+.form-group {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid navy;
+}
+input {
+    width: 100%;
+    margin-top: 1em;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid lightskyblue;
+}
+form h3 {
+    color: darkslategrey;
+    font-size: medium;
+}
+.informace {
+    border: 2px solid crimson;
+}
+input[type=submit] {
+    border: none;
+    background: #222;
+    color: #eee;
+    padding: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

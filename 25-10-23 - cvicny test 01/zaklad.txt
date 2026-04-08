@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <meta content="text/html; charset=IBM850" http-equiv="content-type">
+    <title></title>
+  </head>
+  <body>
+    <p>Text</p>
+  </body>
+</html>

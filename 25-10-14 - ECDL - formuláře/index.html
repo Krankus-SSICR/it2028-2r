@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECDL-Formuláře</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Objednávka pizzy</h2>
+    <form action="">
+        <input type="text" placeholder="Jméno a příjmení:">
+        <label for="email">Zadejte váš email</label>
+        <input type="email" id="email">
+        <label for="zaklad">Základ pro vaši pizzu</label>
+        <div class="zaklad">
+            <label for="rajce">Rajčatový</label>
+            <input type="radio" name="zaklad" id="rajce">
+            <label for="smetanovy">Smetanový</label>
+            <input type="radio" name="zaklad" id="smetanovy">
+        </div>
+        <label for="druh">Vyberte si druh pizzy</label>
+        <select name="druh" id="druh">
+            <option value="margharita">Margharita</option>
+            <option value="salamova">Salamová</option>
+            <option value="diavola">Diavola</option>
+            <option value="kvatroformadzi">Kvatro for madzi</option>
+        </select>
+        <h4>Způsob platby</h4>
+        <div class="platba">
+            <label for="karta">Kartou</label>
+            <input type="checkbox" id="karta">
+            <label for="dobirka">Dobírka</label>
+            <input type="checkbox" id="dobirka">
+
+        </div>
+        <input type="reset" value="Vymazat formulář ">
+        <input type="submit" value="Objednat pizzu">
+        
+    </form>
+</body>
+
+</html>

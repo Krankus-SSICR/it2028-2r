@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylování formulářů</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registrace nového uživatele</h2>
+        <form action="registrace.php" method="POST">
+            <fieldset class="osobni-udaje">
+                <legend>Osobní údaje</legend>
+
+                <div class="form-group">
+                    <label for="jmeno">Jméno a Příjmení</label>
+                    <input type="text" id="jmeno" name="jemno" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Emailová adresa:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="heslo">Heslo:</label>
+                    <input type="password" id="heslo" name="heslo" required>
+                </div>
+                <input type="submit" value="Odeslat formulář">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

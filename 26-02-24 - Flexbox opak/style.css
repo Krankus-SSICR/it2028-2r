@@ -1,0 +1,81 @@
+body {
+    background: lightskyblue;
+    font-family: Calibri;
+    margin: 0;
+}
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav ul {
+    padding: 3em;
+    background: darkgreen;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    opacity: 0.7;
+}
+nav a:hover {
+    opacity: 1;
+}
+.aktivni {
+    opacity: 1;
+}
+.biom {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.obrazek {
+    width: 20%;
+}
+.obrazek img {
+    width: 100%;
+}
+.texty {
+    width: 60%;
+}
+.rozdeleni {
+    height: 150px;
+    width: 5px;
+    background: salmon;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 2em;
+    background: lightgreen;
+}
+.nahledovka-krumpac {
+    width: 100%;
+    height: 15em;
+    background: url(img/krumpac.webp);    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nahledovka-brneni {
+    width: 100%;
+    height: 15em;
+    background: url(img/armor.webp);    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galerie {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}

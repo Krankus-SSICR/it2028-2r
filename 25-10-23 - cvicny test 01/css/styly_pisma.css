@@ -1,0 +1,61 @@
+body 
+{ 
+color: black; 
+background:green; 
+font-family: arial, helvetica, verdana, sans serif; 
+font-size:12px; 
+} 
+
+a:link 
+{ 
+color: blue; 
+background:white;
+text-decoration:underline;
+font-family: arial, helvetica, verdana, sans serif;
+font-size:12px;
+} 
+
+a:active 
+{ color: red; 
+background: white;
+text-decoration:underline; 
+font-weight:bold;
+font-family: arial, helvetica, verdana, sans serif;
+font-size:12px;
+} 
+
+a:visited 
+{ 
+color: teal; 
+background: white;
+text-decoration:underline;
+font-weight:bold;
+font-family: arial, helvetica, verdana, sans serif; 
+font-size:12px;
+} 
+
+p 
+{ 
+text-indent: 15%; 
+} 
+
+p.margins 
+{ margin-left: 20%; 
+margin-right: 20%;
+font-family: arial, helvetica, verdana, sans serif;
+Font-size: 12px;
+} 
+
+h1
+{
+font-weight: normal; 
+font-Size: 20px; 
+color: #000000; 
+font-family: arial;
+}
+h2 {
+    font-family: Arial;
+    font-size: 16px;
+    color: blue;
+}
+

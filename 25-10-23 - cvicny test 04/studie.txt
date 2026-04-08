@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="cs">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<title>Home Page<title>
+</head>
+
+Studie o stavu zv��e ve vybran�ch lokalit�ch
+
+P�edkl�d�me t�mto souhrnnou studii o stavu zv��e v n�kolika vybran�ch lokalit�ch. D�l�� studie byly zpracov�ny m�stn�mi organizacemi 			Sdru�en� p��tel zv��at.
+
+<ul type="square">
+<li>Studie o stavu zv��e v okol� P�sku<br>&nbsp;</li>
+<li>Studie o stavu zv��e v okol� Brna<br>&nbsp;</li>
+<li>Studie o stavu zv��e v okol� Prachatic</li>
+</ul>
+
+Z�v�r
+Stav zv��e v je celkem uspokojiv�. Zv��at ji� mnoho nezbylo, a tak je hajn� i �irok� ve�ejnost znaj� v�t�inou osobn�. V�echna jsou p�esn� evidov�na. Na evidenci a pravideln� kontrole se pod�lej� jen autorizovan� specialist�, jejich� seznam je n�e ke sta�en�.
+
+<html>

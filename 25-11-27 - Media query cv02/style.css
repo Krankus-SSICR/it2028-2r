@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #eee;
+    font-family: Helvetica;
+}
+nav {
+    background: #ddd;
+}
+nav ul {
+    margin: 0;
+    padding: 2em 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+}
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container {
+    width: 66%;
+    margin: auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+.gallery img {
+    width: 30%;
+}
+.gallery img:hover {
+    opacity: 0.5;
+}
+
+/* rozvržení pro tablet */
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+    .gallery {
+        gap: 1em;
+    }
+    .gallery img {
+        width: 49%;
+    }
+}
+@media (max-width: 768px) {
+    .gallery img {
+        width: 48%;
+    }
+}
+
+/* rozvržení pro mobil */
+@media (max-width: 430px) {
+    .container {
+        width: 90%;
+    }
+    .gallery {
+        gap: 0.5em;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
