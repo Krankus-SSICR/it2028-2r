@@ -7,6 +7,10 @@ body {
     align-items: center;
     font-family: Roboto;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
 .logo {
     width: 360px;
     margin-top: 100px;
@@ -48,4 +52,28 @@ h2 {
     width: fit-content;
     padding-bottom: 10px;
     text-transform: uppercase;
+}
+.aktualita {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aktualita img {
+    width: 356px;
+    height: 200px;
+}
+.aktualita .text h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.aktualita .datum {
+    color: #00b0e1;
+    font-size: 22px;
+    font-weight: 800;
+}
+.rozdeleni-aktualita {
+    height: 2px;
+    width: 830px;
+    background: #f08013;
+    margin: 20px 0;
 }
