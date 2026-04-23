@@ -11,6 +11,9 @@ a {
     color: black;
     text-decoration: none;
 }
+.aktivni {
+    background: #f08013;
+}
 .logo {
     width: 360px;
     margin-top: 100px;
@@ -76,4 +79,37 @@ h2 {
     width: 830px;
     background: #f08013;
     margin: 20px 0;
+}
+footer {
+    height: 150px;
+    background: #f08013;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+footer p {
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0 0 0 125px;
+}
+.odkazy-skola a {
+    height: 70px;
+    width: 300px;
+    background: #00b0e1;
+    color: white;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 800;
+}
+.odkazy-skola {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+    gap: 25px;
 }
